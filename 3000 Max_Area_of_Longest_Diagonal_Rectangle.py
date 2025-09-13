@@ -1,4 +1,3 @@
-import math as math 
 class Solution:
     def areaOfMaxDiagonal(self, dimensions):
         rectangle_dict = {}
