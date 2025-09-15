@@ -12,12 +12,14 @@ class Solution:
             freq[letter] += 1
         
         # find max vowel freq
+        # instantiate count of consonant
         max_vowel = 0 
         for v in vowels:
             if v in freq and freq[v] > max_vowel:
                 max_vowel = freq[v]
             
         # find max consonant freq
+        # instantiate count of consonant
         max_con = 0 
         for c in consonant:
             if c in freq and freq[c] > max_con:
